@@ -1,4 +1,3 @@
-
 #title{
     background-color:#ff4c68 ;
     color: #fff;
@@ -60,12 +59,15 @@ h3{
 .title-image{
     width: 60%;
     transform: rotate(25deg); /* make it roatate 25 degree to the right, -25deg if you want it to the left */
+    position: relative;
 }
 
 /* Features Section */
 #features{
     padding: 7% 15%;
     text-align: center;
+    background-color: #fff;
+    z-index: 1;
 }
 .fa-solid{
     color: #ef8172;
