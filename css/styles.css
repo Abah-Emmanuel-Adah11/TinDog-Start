@@ -136,3 +136,18 @@ h3{
         text-align: center; /* At the specified screen width in the query align the text in the title section to the  centre*/
     }
 }
+
+/* cta section */
+
+#cta{
+background-color: #ff4c68;
+padding: 7% 15%;
+text-align: center;
+color: #fff;
+}
+.cta-text{
+    font-family: "Montserrat-Black";
+    font-weight: bolder;
+    padding-bottom: 7%;
+    font-size: 3.5rem;
+}
