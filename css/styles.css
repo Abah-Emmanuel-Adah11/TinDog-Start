@@ -123,3 +123,16 @@ h3{
 .pricing-column {
     padding: 3% 2%;
 }
+
+/* Media query break point to enhance responsiveness of the title and title section */
+
+@media (max-width: 1020px){
+    .title-image{
+        position: static;       /* At the specified screen width in the query make the image align */ 
+        transform: rotate(0);   /* At the specified screen width in the query make the image striaght */
+    }
+
+    #title{
+        text-align: center; /* At the specified screen width in the query align the text in the title section to the  centre*/
+    }
+}
