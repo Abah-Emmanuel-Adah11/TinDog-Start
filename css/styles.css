@@ -12,6 +12,16 @@ h1, h2, h3, h4, h5, h6 {
     padding: 7% 15%;
 }
 
+/* Sections */
+.color-section{
+    background-color:#ff4c68 ;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
 /* Headings */
 .big-heading{
     font-family: "Montserrat-Black";
@@ -57,18 +67,14 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     /* right: 30%; */
 }
-#title{
-    background-color:#ff4c68 ;
-    color: #fff;
-    text-align: left;
-}
+
 #title .container-fluid{
-    padding-top: 3% 15% 7%;
+    text-align: left;
+    padding: 3% 15% 7%;
 }
 
 /* Features Section */
 #features{
-    background-color: #fff;
     position: relative;
     /* z-index: 1; */
 }
@@ -93,7 +99,6 @@ h1, h2, h3, h4, h5, h6 {
 /* Testimonials section */
 #testimonials{
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonial-image{
@@ -135,18 +140,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* CTA Section */
-#cta{
-background-color: #ff4c68;
-color: #fff;
-}
-
 .c-icon{
     padding-right: 0.5rem;
-}
-
-/* Footer Section */
-#footer{
-    background-color: #fff;
 }
 
 .footer-icon{
