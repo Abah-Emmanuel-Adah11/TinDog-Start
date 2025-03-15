@@ -1,5 +1,6 @@
 body{
     font-family: "Montserrat";
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -7,19 +8,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-h2{
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 1.5;
-}
-
-h3{
-    font-weight: 1.5rem;
-}
-
-#title{
-    background-color:#ff4c68 ;
-    color: #fff;
+.container-fluid{
+    padding: 7% 15%;
 }
 
 /* Headings */
@@ -29,8 +19,10 @@ h3{
     line-height: 1.5;
 }
 
-.container-fluid{
-    padding: 3% 15% 7%;
+.section-heading{
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -65,15 +57,26 @@ h3{
     position: absolute;
     /* right: 30%; */
 }
+#title{
+    background-color:#ff4c68 ;
+    color: #fff;
+    text-align: left;
+}
+#title .container-fluid{
+    padding-top: 3% 15% 7%;
+}
 
 /* Features Section */
 #features{
-    padding: 7% 15%;
-    text-align: center;
     background-color: #fff;
     position: relative;
     /* z-index: 1; */
 }
+
+.features-title{
+    font-weight: 1.5rem;
+}
+
 .fa-solid{
     color: #ef8172;
     padding: 1.5rem;
@@ -89,7 +92,6 @@ h3{
 
 /* Testimonials section */
 #testimonials{
-    text-align: center;
     background-color: #ef8172;
     color: #fff;
 }
@@ -106,14 +108,9 @@ h3{
     line-height: 1.5;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
-
 /* Press section */
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -125,7 +122,6 @@ h3{
 /* pricing section */
 #pricing{
     padding: 100px;
-    text-align: center;
 }
 
 .price-text{
@@ -141,16 +137,9 @@ h3{
 /* CTA Section */
 #cta{
 background-color: #ff4c68;
-padding: 7% 15%;
-text-align: center;
 color: #fff;
 }
-.cta-text{
-    font-family: "Montserrat-Black";
-    font-weight: bolder;
-    line-height: 1.5;
-    font-size: 3.5rem;
-}
+
 .c-icon{
     padding-right: 0.5rem;
 }
@@ -158,9 +147,6 @@ color: #fff;
 /* Footer Section */
 #footer{
     background-color: #fff;
-    text-align: center;
-    padding: 7% 15%;
-
 }
 
 .footer-icon{
